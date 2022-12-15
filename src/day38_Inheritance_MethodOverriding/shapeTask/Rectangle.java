@@ -24,8 +24,8 @@ public class Rectangle extends Shape{
         if(width<=0){
             System.err.println("Invalid width "+width);
             System.exit(1);
-        this.width = width;
         }
+        this.width = width;
     }
 
     public Rectangle(double length, double width) {
@@ -47,8 +47,8 @@ public class Rectangle extends Shape{
     @Override
     public String toString() {
         return "Rectangle{" +
-                "length=" + length +
-                ", width=" + width +
+                "length=" + length +'\'' +
+                ", width=" + width +'\'' +
                 ", area='" + area() + '\'' +
                 ", perimeter='" + perimeter() + '\'' +
                 '}';
