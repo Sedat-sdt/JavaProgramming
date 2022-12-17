@@ -57,7 +57,7 @@ public class Employee extends Person {
                 "name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 ", gender=" + getGender() +
-                "employeeId=" + employeeId +
+                ", employeeId=" + employeeId +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
                 '}';
