@@ -20,10 +20,7 @@ public class FrendlyAnimal extends Animal {
     }
 
     public void setFriendly(boolean friendly) {
-        if(!isFriendly){
-            System.out.println(getName()+" is not a friendly animal");
-            System.exit(1);
-        }
+
         isFriendly = friendly;
     }
 
