@@ -60,6 +60,7 @@ public class TryCatchBlocks {
         }catch (RuntimeException e){
             e.printStackTrace();
         }
+        System.out.println("Test3 completed");
 
 
 
