@@ -72,7 +72,7 @@ public abstract class Car {
     }
 
     public String toString() {
-        return "Car{" +
+        return getClass().getSimpleName()+"{" +
                 "make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 ", year=" + year +
